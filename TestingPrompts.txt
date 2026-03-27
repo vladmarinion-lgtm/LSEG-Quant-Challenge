@@ -1,7 +1,8 @@
+Exemplu
 I want an orchestrator tool that receives a user query append history applies azure guardrails and then   decides to which component to use from a sentiment; summarizations; or drawing tools 
 I want the tools to be in red and the classificatory in green
 
-
+Auth0 auth flow
 User selects Login within application.
 Auth0's SDK redirects user to Auth0 Authorization Server (/authorize endpoint).
 Auth0 Authorization Server redirects user to login and authorization prompt.
@@ -13,11 +14,13 @@ Auth0 Authorization Server responds with an ID token and access token (and optio
 Application can use the access token to call an API to access information about the user.
 API responds with requested data.
 
+Gig marketplace architecture
 Cloud architecture for a marketplace for freelance developers to find work. Allow authentication via GitHub and LinkedIn. Use machine learning to recommend listings. Use React for the frontend, Vercel for deployment. Use a graph database to store user activities, use a SQL database for job listings. Allow payments to be directly made on the platform via Stripe. Use AWS infrastructure where applicable.
 
+Twitter data model
 Data model for Twitter that includes users, followers, DMs, likes, bookmarks, retweets, tweets, lists
 
-
+Doctor onboarding flow
 A flow to onboard doctors to an appointment scheduling app:
 - Get practice locations. If more than 4 locations, add to Salesforce and continue. If more than 6 doctors, add to Salesforce, and continue.
 - If taking video calls, ask if authorized in Wyoming. If so, show WY Special Questionnaire. If not, finish onboarding
